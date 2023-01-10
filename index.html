@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>A Calculator</title>
+</head>
+
+<body>
+    <div id="calculator">
+        <div id="keyboard">
+            <input type="text" placeholder="0" id="result">
+            <div id="calc">
+                <button class="operator" onclick="Clear()">C</button>
+                <button class="operator" onclick="back()">&#9003;</button>
+                <button class="operator" id="operator" onclick="display('%')">%</button>
+                <button class="operator" id="operator" onclick="display('/')">/</button>
+                <button class="number" onclick="display('7')">7</button>
+                <button class="number" onclick="display('8')">8</button>
+                <button class="number" onclick="display('9')">9</button>
+                <button class="operator" id="operator" onclick="display('*')">x</button>
+                <button class="number" onclick="display('4')">4</button>
+                <button class="number" onclick="display('5')">5</button>
+                <button class="number" onclick="display('6')">6</button>
+                <button class="operator" id="operator" onclick="display('-')">-</button>
+                <button class="number" onclick="display('1')">1</button>
+                <button class="number" onclick="display('2')">2</button>
+                <button class="number" onclick="display('3')">3</button>
+                <button class="operator" id="operator" onclick="display('+')">+</button>
+                <button class="number" id="zero" onclick="display('0')">0</button>
+                <button class="number" id="dot" onclick="display('.')">.</button>
+                <button class="operator" id="equal" onclick="calculate()">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,63 @@
+body {
+    background-color: #e5d6c3;
+}
+
+#calculator {
+    width: 200px;
+    height: 1000px;
+    margin: 140px auto;
+}
+
+#result {
+    width: 212px;
+    height: 50px;
+    text-align: right;
+    background-color: #7a8791;
+    font-size: 30px;
+}
+
+::placeholder {
+    color: black;
+}
+
+#calc {
+    width: 220px;
+}
+
+.operator,
+.number {
+    width: 55px;
+    height: 60px;
+    margin: 0;
+    float: left;
+    font-size: 25px;
+}
+
+#dot {
+    width: 55px;
+    height: 60px;
+    margin: 0;
+    float: left;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: azure;
+}
+
+#zero {
+    width: 110px;
+}
+
+#equal {
+    color: darkred;
+    background-color: aquamarine
+}
+
+.operator {
+    color: darkred;
+}
+
+.operator,
+.number {
+    cursor: pointer;
+    background-color: azure;
+}
